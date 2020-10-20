@@ -14,7 +14,7 @@ CFLAGS= -Wall -g -O -fPIC
 RM= rm -f
 .PHONY: all clean
 
-all: open62541.so
+install: open62541.so
 clean:
 	$(RM) *.o *.so
 
