@@ -14,9 +14,9 @@ include(AssignSourceGroup)
 include(GNUInstallDirs)
 
 # Set when installed via make install
-# set(open62541_TOOLS_DIR ${PROJECT_SOURCE_DIR}/tools)
-# set(open62541_NODESET_DIR ${PROJECT_SOURCE_DIR}/deps/ua-nodeset)
-# set(XDP_LIBRARY "/usr/local/src/bpf-next/tools/lib/bpf/libbpf.a")
+set(open62541_TOOLS_DIR ${PROJECT_SOURCE_DIR}/tools)
+set(open62541_NODESET_DIR ${PROJECT_SOURCE_DIR}/deps/ua-nodeset)
+set(XDP_LIBRARY "/usr/local/src/bpf-next/tools/lib/bpf/libbpf.a")
 
 include(macros_internal)
 include(macros_public)
